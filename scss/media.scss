@@ -1,0 +1,297 @@
+@media (min-width: 993px) and (max-width: 1439px) {
+.dataItem {
+  width: 150px;
+}
+  .timeItem {
+    width: 150px;
+  }
+  .classItem {
+    width: 150px;
+  }
+  .coach {
+    width: 150px;
+  }
+  .schedule__text__products {
+    width: 588px;
+  }
+  .title {
+    display: none;
+  }
+  .table {
+    justify-content: center;
+  }
+  .class {
+    width: 150px;
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .dataItem {
+    width: 120px;
+  }
+  .timeItem {
+    width: 160px;
+  }
+  .classItem {
+    width: 140px;
+  }
+  .schedule__text__products {
+    width: 567px;
+  }
+  .coach {
+    width: 120px;
+  }
+  .table__subtitle {
+    width: 135px;
+    display: none;
+  }
+  .table {
+    justify-content: center;
+  }
+  .tableTwo {
+    margin-left: 27px;
+  }
+  .header__main {
+    display: none;
+  }
+  .table__subtitle_text {
+    display: none;
+  }
+  .title {
+    display: none;
+  }
+  .body_item {
+    display: none;
+  }
+  .monday_item {
+    color: #ffffff00;
+  }
+  .body_item_style {
+    display: none;
+  }
+  .sectionThree {
+    display: none;
+  }
+  .bottomThree {
+    display: none;
+  }
+  .bottomTwo {
+    border-bottom: none;
+  }
+  .adapt {
+    display: flex;
+  }
+  .state__text {
+    margin-left: 9px;
+    margin-top: 25px;
+  }
+  .schedule__text {
+    margin-left: 25px;
+    margin-top: 103px;
+    margin-bottom: 50px;
+  }
+  .date {
+    width: 178px;
+  }
+  .time {
+    width: 229px;
+  }
+  .class {
+    width: 188px;
+  }
+  .coach {
+    width: 146px;
+  }
+  .schedule__text__products {
+    width: 718px;
+  }
+}
+@media (min-width: 280px) and (max-width: 576px) {
+  .accordion {
+    display: block;
+  }
+  .adapt {
+    font-size: 20px;
+    justify-content: center;
+  }
+  .schedule__text {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .schedule__text__products {
+    display: none;
+  }
+  .bottomTwo {
+    border-bottom: none;
+  }
+  .sectionThree {
+    display: none;
+  }
+  .bottomThree {
+    display: none;
+  }
+  /*---------------------*/
+  .date {
+    display: none;
+  }
+  .classItem {
+    display: none;
+  }
+  .coachItem {
+    display: none;
+  }
+  .buttonClik {
+    flex-direction: column;
+    margin-right: 0;
+  }
+  .downloadBtn {
+    width: 280px;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .bookBtn {
+    width: 280px;
+    margin-right: 0;
+  }
+  .monday {
+    margin-top: 50px;
+  }
+  .time {
+    width: 203px;
+  }
+  .bonus {
+    color: #ffffff00;
+    border-bottom: none!important;
+  }
+  .bordBot {
+    border-bottom: none;
+  }
+  .timeBon {
+    padding-top: 0;
+  }
+  .timMon {
+    margin-top: 0;
+  }
+  .timTues {
+    margin-top: 45px;
+  }
+  .timWedn {
+    margin-top: 60px;
+  }
+  .timThur {
+    margin-top: 44px;
+  }
+  .timFri {
+    margin-top: 69px;
+  }
+  .timSatu {
+    margin-top: 58px;
+  }
+  .timSun {
+    margin-top: 35px;
+  }
+/*=======accordion========accordion=================accordion===================*/
+  .accordion.js > * {
+    overflow: hidden;
+  }
+
+  .accordion.js > *:not(.expanded) > *:not(.papa) {
+    max-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .accordion.js > .expanded > *:not(.papa) {
+    max-height: 200px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .accordion.js > * > .papa {
+    cursor: pointer;
+    visibility: visible;
+  }
+
+  .accordion.js > * > *:not(.papa) {
+    transition: max-height 1s,
+    visibility 1s,
+    margin 1s,
+    opacity 1s;
+  }
+  /*=======accordion========accordion====END=============accordion===================*/
+  .adapt {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header__main {
+    display: none;
+  }
+  .title {
+    display: none;
+  }
+  .body_item {
+    display: none;
+  }
+  .body_item_style {
+    display: none;
+  }
+  .table {
+    display: flex;
+    justify-content: center;
+  }
+  .timeItem {
+    display: none;
+  }
+  .table__subtitle {
+    display: none;
+  }
+  .monday {
+    margin-top: 0;
+    width: 280px;
+    height: 59px;
+    border-top: solid 1px #979797;
+    font-weight: bold;
+  }
+  .dataItem {
+    display: none;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .monday_item {
+    display: none;
+  }
+  .bordBot {
+    padding: 0;
+  }
+  .papa {
+    width: 280px;
+    margin-left: 20px;
+    padding-top: 5px;
+    border-top: solid 1px #979797;
+    color: #353535;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    height: 51px;
+  }
+  .papa__item_text {
+    color: #676767;
+    font-size: 14px;
+    padding-bottom: 25px;
+    line-height: 1.71;
+    margin-left: 136px;
+    margin-top: 15px;
+  }
+  .fa-angle-down {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 10px;
+    top: 4px;
+  }
+}
